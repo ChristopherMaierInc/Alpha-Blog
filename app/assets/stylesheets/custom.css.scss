@@ -1,7 +1,24 @@
 $navbar-default-bg: rgba(#0F0F0F, 0.77);
 
+//Import bootstrap-sprockets
 @import "bootstrap-sprockets";
+
+// Import cerulean variables
+@import "bootswatch/united/variables";
+
+// Then bootstrap itself
 @import "bootstrap";
+
+// Bootstrap body padding for fixed navbar
+// body { padding-top: 60px; }
+
+
+// And finally bootswatch style itself
+@import "bootswatch/united/bootswatch";
+
+// Whatever application styles you have go last
+// @import "base";
+
 
 #logo {
   float: left;
