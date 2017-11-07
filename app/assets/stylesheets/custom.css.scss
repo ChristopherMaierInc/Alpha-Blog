@@ -92,6 +92,21 @@ $navbar-default-bg: rgba(#0F0F0F, 0.77);
   padding-left: 0;
 }
 
+.badge {
+  background-color: rgba(#C3C3C3, 0);
+  text-transform: uppercase;
+  border: 1px solid #df382c;
+}
+
+.badge a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.input_checkbox inout {
+  width: auto !important;
+}
+
 footer {
   margin-top: 90px;
   padding-top: 5px;
